@@ -12,7 +12,7 @@ A key feature of DeepND is its emphasis on interpretability. In addition to achi
 
 ---
 
-## Installation
+### Installation
 
 Clone the repository:
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ---
 
-## Requirements
+### Requirements
 
 DeepND has been implemented using the following software versions:
 
@@ -57,7 +57,7 @@ pip install tensorflow keras numpy scipy pandas matplotlib scikit-learn
 
 ---
 
-## Data Preparation
+### Data Preparation
 
 The framework requires two groups of sequences:
 
@@ -77,7 +77,7 @@ For nucleosomal sequences, the central nucleotide corresponds to the nucleosome 
 
 ---
 
-## Training
+### Training
 
 The main training script is:
 
@@ -97,7 +97,7 @@ To improve training stability and reduce overfitting, DeepND continuously monito
 
 ---
 
-## Motif Extraction
+### Motif Extraction
 
 Following model training, the first-layer convolutional kernels can be analyzed to identify sequence motifs associated with nucleosome positioning.
 
@@ -112,13 +112,13 @@ The resulting motifs can be visualized as sequence logos or position weight matr
 
 ---
 
-## Citation
+### Citation
 
 The citation will be available after the paper is published.
 
 ---
 
-## License
+### License
 
 This project is distributed under the MIT License. See the `LICENSE` file for details.
 
